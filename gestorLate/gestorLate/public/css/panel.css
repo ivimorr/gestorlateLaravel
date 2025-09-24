@@ -1,0 +1,156 @@
+:root {
+    --morado-principal: #7f5af0;
+    --morado-hover: #a78bfa;
+    --oscuro: #1c1c2e;
+    --oscuro-claro: #2e294e;
+    --texto-claro: #f8f9fa;
+}
+.titulo-seccion {
+    font-family: "Montserrat ", sans-serif;
+}
+
+.textos{
+    font-family: "Roboto ", sans-serif;
+}
+
+
+
+/*body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--oscuro);
+    color: var(--texto-claro);
+    margin: 0;
+}
+
+
+
+ /*Contenido principal 
+.main-content {
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: var(--oscuro-claro);
+    
+}*/
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto ", sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    color: var(--texto-claro);
+}
+
+
+.d-flex {
+  display: flex !important;
+  /* height: auto; */
+}
+
+/* Asegura que el contenido crezca y empuje el footer hacia abajo */
+.main-content {
+    padding: 0px;
+    flex-grow: 1;
+    padding: 2rem;
+    background-color: var(--oscuro-claro);
+}
+
+
+
+
+/*-----------Footer------------*/
+
+footer {
+    background-color: var(--oscuro-claro);
+    color: var(--texto-claro);
+    width: 100%;
+}
+
+footer a:hover {
+    color: var(--morado-hover);
+}
+
+/* para la tabla productos y productos */
+.container-ancho{
+
+    max-width: 80% !important; 
+}
+
+/*Formularios*/
+.formulario{
+  background-color: #ccd1d1;
+}
+
+.form-label {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.form-control,.form-select{
+    border: 1px solid grey;
+}
+input::placeholder,
+textarea::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: #6c757d; /* color gris opcional */
+}
+
+
+/* SweetAlert personalizado con tonos morados */
+.swal-cancel-popup {
+    border-radius: 1rem;
+    background-color: #f7f3fa; /* lavanda claro */
+    font-family: 'Roboto', sans-serif;
+}
+
+.swal-cancel-title {
+    font-weight: 700;
+    color: #5e35b1; /* morado fuerte */
+    font-size: 1.5rem;
+}
+
+.swal-cancel-text {
+    color: #7e57c2; /* morado medio */
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.swal-cancel-confirm {
+    background-color: #8e24aa !important; /* morado intenso */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #fff !important;
+}
+
+.swal-cancel-cancel {
+    background-color: #b098db !important; /* morado claro */
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    color: #fff !important;
+}
+
+/*Agregar productos*/
+
+/*Images*/
+
+.img-categoria {
+    width: 100%;
+    height: 133px;
+    object-fit: cover;
+    border-bottom: 2px solid var(--morado-principal);
+}
+
+
+/*Accordion */
+
+.accordion-button{
+    font-weight: 600;
+}
+
+.seccion-titulo{
+    font-weight: 500;
+}

@@ -1,0 +1,153 @@
+/* Fuente moderna */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+.titulo-seccion {
+    font-family: "Montserrat ", sans-serif;
+}
+
+
+
+:root {
+    --morado-principal: #7f5af0;
+    --morado-hover: #a78bfa;
+    --oscuro: #1c1c2e;
+    --oscuro-claro: #2e294e;
+    --texto-claro: #f8f9fa;
+    --borde-suave: #3a3a5c;
+    
+}
+
+body {
+    /* font-family: 'Inter', sans-serif; */
+    background-color: var(--oscuro);
+    color: var(--texto-claro);
+}
+
+/* Tarjetas */
+.card-morado {
+    background-color: var(--oscuro-claro);
+    color: var(--texto-claro);
+    border: 1px solid var(--borde-suave);
+    border-radius: 1rem;
+    transition: all 0.3s ease;
+    
+}
+
+.card-morado:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(127, 90, 240, 0.2);
+}
+
+.card-title {
+    color: var(--texto-claro);
+}
+
+/* Botones */
+.btn-morado {
+    background-color: var(--morado-principal);
+    border: none;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    font-weight: 600;
+    border-radius: 0.8rem;
+    transition: background-color 0.3s ease;
+}
+
+.btn-morado:hover {
+    background-color: var(--morado-hover);
+}
+
+/* Texto morado */
+.text-morado {
+    color: var(--morado-principal) !important;
+}
+
+/* Tabla */
+.table thead {
+    background-color: var(--morado-principal);
+    color: #fff;
+    border-radius: 0.5rem;
+}
+
+.table-hover tbody tr:hover {
+    background-color: rgba(127, 90, 240, 0.08);
+}
+
+.badge.bg-secondary {
+    background-color: var(--morado-hover) !important;
+}
+
+.card-header.bg-dark {
+    background-color: #282c3f !important;
+    border-bottom: 1px solid var(--morado-hover);
+}
+
+.kpi-card {
+    color: white;
+    border: none;
+}
+
+/* Fondo morado oscuro para Proveedores */
+.kpi-proveedores {
+    background-color: #3b6bbb; /* o usa una variable si tienes: var(--morado-principal) */
+    text-align: center;
+}
+
+/* Fondo verde azulado para Productos */
+.kpi-productos {
+    background-color: #3bb78f;
+    text-align: center;
+}
+
+/* Fondo naranja para Pedidos */
+.kpi-pedidos {
+    background-color: #ddaa0e ;
+    text-align: center;
+}
+
+
+/*Accesos rapidos*/
+
+/* Botones de accesos rápidos */
+.btn-acceso-proveedor {
+    border: 2px solid #2596be;
+    color: #2596be;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    border-width: 2.5px;
+}
+
+.btn-acceso-proveedor:hover {
+    background-color: #3b6bbb;
+    color: white;
+}
+
+.btn-acceso-producto {
+    border: 2px solid #3bb78f;
+    color: #3bb78f;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    border-width: 2.5px;
+}
+
+.btn-acceso-producto:hover {
+    background-color: #3bb78f;
+    color: white;
+}
+
+.btn-acceso-pedido {
+    border: 2px solid #ddaa0e;
+    color: #ddaa0e;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    border-width: 2.5px;
+}
+
+.btn-acceso-pedido:hover {
+    background-color: #ddaa0e;
+    color: white;
+}
+
+

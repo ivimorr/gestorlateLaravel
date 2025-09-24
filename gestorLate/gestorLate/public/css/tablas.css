@@ -1,0 +1,20 @@
+/* Asegura que se aplica fondo neutro */
+.tabla-color-bordes tbody tr {
+    background-color: transparent;
+}
+
+/* Filas pares → gris muy muy claro */
+.tabla-color-bordes tbody tr:nth-child(even) {
+    background-color: #525151 !important; /* Gris casi blanco */
+}
+
+/* Filas impares → blanco puro */
+.tabla-color-bordes tbody tr:nth-child(odd) {
+    background-color: #ffffff !important;
+}
+
+/* Opcional: mejora visual al pasar el mouse */
+.tabla-color-bordes tbody tr:hover {
+    background-color: #f1f1f1 !important;
+}
+

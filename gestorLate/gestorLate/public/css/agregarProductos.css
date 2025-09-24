@@ -1,0 +1,37 @@
+.accordion-button:not(.collapsed) {
+    background-color: var(--morado-principal);
+    color: var(--texto-claro);
+}
+
+.accordion-button.collapsed {
+    background-color: var(--oscuro);
+    color: var(--texto-claro);
+}
+
+.accordion-body {
+    background-color: var(--oscuro-claro);
+    border-top: 1px solid var(--morado-principal);
+}
+
+.accordion-item {
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.bodyBg{
+    background-color: #dde6e6;
+}
+
+
+
+
+.card-producto.sin-stock {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.card-producto, .sin-stock-label {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}

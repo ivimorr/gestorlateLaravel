@@ -1,0 +1,27 @@
+// resources/sass/components/_nav.scss
+
+.bg-purple {
+  background-color: #6f42c1 !important; // morado Bootstrap-ish
+}
+
+// Asegúrate de que los enlaces tengan buen contraste
+.bg-purple .nav-link {
+  color: #ffffff;
+  &:hover {
+    color: #e2d6f3;
+  }
+}
+
+// Botones en navbar: opcionalmente también los ajustas
+.bg-purple .btn-primary {
+  background-color: #4e2a8e;
+  border-color: #4e2a8e;
+}
+
+
+header{
+  border-color: #4e2a8e;
+}
+
+
+
