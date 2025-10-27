@@ -14,7 +14,7 @@
         <div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Logo.min.svg/176px-Logo.min.svg.png?20200603074624" width="15%" height="auto" alt="Blade">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png?20180502235434" width="10%" height="auto" alt="Blade">
+            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png?2" width="10%" height="auto" alt="PHP">
         </div>
         <h3>Frontend</h3>
         <div> 
