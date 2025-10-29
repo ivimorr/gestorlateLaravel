@@ -3,7 +3,7 @@
     <body>
         <h1>
             GestorLate    
-            <img src="gestorLate/gestorLate/public/imagenes/logo/Logo-Letra-Morada2-removebg-preview.png"  width="5%" height="0%" margin-top="45px" alt=""  style>
+            <img src="gestorLate/public/imagenes/logo/Logo-Letra-Morada2-removebg-preview.png"  width="5%" height="0%" margin-top="45px" alt="Gestorlate(Logo)"  style>
         </h1>
         <p> GestorLate is a web platform designed to simplify the daily management of small hospitality businesses.
         It allows owners to control key aspects — such as suppliers, products, and orders — from anywhere and at any time.<br>
@@ -14,7 +14,7 @@
         <div>
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Logo.min.svg/176px-Logo.min.svg.png?20200603074624" width="15%" height="auto" alt="Blade">
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png?2" width="10%" height="auto" alt="PHP">
+            <img src=" https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/711px-PHP-logo.svg.png?" width="10%" height="auto" alt="PHP">
         </div>
         <h3>Frontend</h3>
         <div> 
@@ -49,7 +49,13 @@
         <p>With the business groundwork done, I moved on to development, starting with the E/R model to design the database structure. I then created migrations, models, and controllers, refining them progressively while building the frontend interface.</p>
         <p>To support testing during development, I used factories to generate sample data. The interface was built using Blade templates, partials (headers and footers), and reusable layouts, with routes defined in <strong>web.php.' </strong></p>
         <p>Finally, I implemented role-based access control with Middleware, ensured CSRF (Cross-Site Request Forgery) protection for secure form handling, and deployed the application on OVHcloud (currently offline).</p>
-        <hr>
+        <h2>🎬 Demo / Screenshot</h2>
+        <div>
+            <a href="https://youtu.be/Qm4JCvGqzxM" target="_blank">
+                <img src="https://img.youtube.com/vi/Qm4JCvGqzxM/0.jpg"
+                    alt="Watch the demo"
+                    style="max-width:100%; height:auto; border: solid grey  2px; border-radius:3px;   ">
+            </a>
         <h2>🚦 Instalation</h2>
         <ol>
             <li>Clone the repository:
@@ -92,6 +98,7 @@
             <pre><code>php artisan serve</code></pre>
             </li>
         </ol>
+        </div>
     </body>
 </html>
 
